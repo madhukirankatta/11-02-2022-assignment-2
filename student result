@@ -1,0 +1,44 @@
+# 11-02-2022-assignment-2
+# student result
+sno=int(input('student no:'))
+sname=input('student name:')
+s1=int(input('enter s1 marks:'))
+s2=int(input('enter s2 marks:'))
+s3=int(input('enter s3 marks:'))
+s4=int(input('enter s4 marks:'))
+s5=int(input('enter s5 marks:'))
+s6=int(input('enter s6 marks:'))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6
+print('total marks:',total)
+print('average marks:',avg)
+
+if avg>=91:
+    print('O Grade')
+elif avg>=81:
+    print('A Grade')
+elif avg>=71:
+    print('B Grade')
+elif avg>=61:
+    print('C Grade')
+elif avg>=51:
+    print('D Grade')
+elif avg>=41:
+    print('PASS')
+else:
+    print('FALI')
+ 
+ 
+ output:
+ ===================== RESTART: C:\Python37\stud resu.py =====================
+student no:25
+student name:madhu
+enter JAVA marks:70
+enter OS marks:65
+enter AFM marks:80
+enter TEL marks:80
+enter OB marks:65
+enter EE marks:70
+total marks: 430
+average marks: 71.66666666666667
+B Grade
